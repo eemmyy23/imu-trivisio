@@ -16,7 +16,7 @@
 
 #define M_PI 3.14159265358979323846
 
-#include "MadgwickAHRS.c"
+
 #define RATE 100
 float accel[3];
 float vx, vy, vz;
