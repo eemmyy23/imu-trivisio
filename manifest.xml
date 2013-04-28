@@ -1,0 +1,19 @@
+<package>
+  <description brief="imu_trivisio">
+
+     imu_trivisio
+
+  </description>
+
+
+
+  <author>emi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/imu_trivisio</url>
+  <depend package="sensor_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="actionlib"/>
+</package>
+
+
