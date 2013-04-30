@@ -122,6 +122,7 @@ int main(int argc, char **argv)
   printf("Jitter reduction: %d\n", colibriGetJitterStatus(imu));
   printf("\n\n");
   colibriStart(imu);
+  ros::Duration(2).sleep(); // sleep for two seconds 
 
   while (ros::ok())
   {
@@ -144,6 +145,7 @@ int main(int argc, char **argv)
                         printf("Euler: %10.4f, %10.4f, %10.4f\n",180/M_PI*eul[0], 180/M_PI*eul[1], 180/M_PI*eul[2]);
 
 */
+
 												
 
 			/* IMU */
